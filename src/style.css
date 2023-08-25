@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(1, 108, 1);
+  padding-top: 70px;
+}
+#cards {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.nipeUp {
+  font-size: 80px;
+  margin-right: 200px;
+}
+.nipeDown {
+  font-size: 80px;
+  margin-left: 200px;
+  transform: rotate(180deg);
+}
+.nipeRed {
+  color: red;
+}
+.numberRed {
+  color: red;
+}
+.cardNumber {
+  font-size: 100px;
+}
+.btn {
+  margin-top: 0px;
+  font-weight: bold;
+  border: 1px solid rgb(247, 245, 245);
+  background-color: brown;
+  color: white;
+}
+.input-fields {
+  margin-top: 10px;
+}
+.input-fields div {
+  margin-bottom: 10px;
+}
+#width {
+  border: 1px solid black;
+}
+#height {
+  border: 1px solid black;
+}
